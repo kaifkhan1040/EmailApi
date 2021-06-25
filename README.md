@@ -27,10 +27,7 @@ from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
-
-
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
-
 def main():
     """Shows basic usage of the Gmail API.
     Lists the user's Gmail labels.
@@ -68,7 +65,8 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
+ 
+ 
 Step 3: Run the sample
 To run the sample:
 
