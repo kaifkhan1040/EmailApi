@@ -11,6 +11,8 @@ Then you should need A Google account with Gmail enabled
 Step 1: Install the Google client library
 To install the Google client library for Python, run the following command:
   pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+  
+  
 Step 2: Configure the sample
 To configure the sample:
 
