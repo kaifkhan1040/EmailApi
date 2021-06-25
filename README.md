@@ -81,3 +81,7 @@ The sample executes.
 
 #for more informations click on this link
 https://developers.google.com/gmail/api/quickstart/python
+
+#Note
+for security reason i have delete my token.json and token.pickle file .
+you should have to use yours.
