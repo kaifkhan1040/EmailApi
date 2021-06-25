@@ -19,6 +19,8 @@ To configure the sample:
 In your working directory, create a file named quickstart.py.
 Include the following code in quickstart.py:
 #example
+
+
 from __future__ import print_function
 import os.path
 from googleapiclient.discovery import build
@@ -26,7 +28,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 
-# If modifying these scopes, delete the file token.json.
+
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 
 def main():
